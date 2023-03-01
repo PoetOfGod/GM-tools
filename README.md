@@ -1,6 +1,8 @@
 # GM-tools version Alpha2.0b
-This application is a work in progress multi-functional tool that can assist Game Masters
+This application is a work in progress multi-functional tool that can assist Game Masters.
+
 What started as a simple scroll generator script with a custom GUI has expanded into a full program to assist with running Tabletop Roleplaying Games.  The code is designed to handle content for 5e, however it may be adapted into a more general form to include other popular roleplaying games as newer versions are released.
+
 Currently Development is mostly being done on the Crafting Rules Application and many of the Databases that will be used by upcoming applications.
 
 **Current Working Status of Each Application, Estimated Time to Develop/Refine:**
