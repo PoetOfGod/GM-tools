@@ -1,0 +1,94 @@
+{
+    "include_sources" : ["PHB", "SRD", "MM", "DMG"],
+    "default profile" : "default",
+    "colors" : {
+        "white" : "#faf9f6",
+        "black" : "#000000",
+        "blue" : "#1357a6",
+        "tan" : "#ffec9e",
+        "dark_tan" : "#ebd991",
+        "dark_red" : "#990F02",
+        "gray" : "#dddddd",
+        "dark_gray" : "#222222",
+        "orange" : "#d68713",
+        "purpleish_red" : "#78194F",
+        "blueish_purple" : "#1d2791",
+        "red" : "#ff0000",
+        "green" : "#03AC13",
+        "muddy_orange" : "#c64c1b",
+        "muddy_red" : "#953c14",
+        "deep_blue" : "#020079"
+    },
+    "dimensions" : {
+        "app_width" : 954,
+        "app_height" : 982,
+        "border_distance" : 15
+    },
+    "images" : {
+        "home" : {
+            "bg" : "gmhome_bkgd.jpg"
+        },
+        "initTrack" : {
+            "arrow" : "arrow.png",
+            "bg" : "initiativetracker_bkgd.jpg"
+        },
+        "monLook" : {
+            "bg" : "monsterlookup_bkgd.jpg"
+        },
+        "spellLook" : {
+            "bg" : "spelllookup_bkgd.jpg"
+        },
+        "plyLook" : {
+            "bg" : "playerlookup_bkgd.jpg"
+        },
+        "scrollGen" : {
+            "copy_i" : "copy.ico",
+            "f_bg" : "scrollfilter_bkgd.jpg",
+            "bg" : "scrollgen_bkgd.jpg"
+        },
+        "craftRules" : {
+            "bg" : "craftrules_bkgd.jpg"
+        },
+        "dieRoller" : {
+            "bg" : "dieroller_bkgd.jpg"
+        },
+        "grLook" : {
+            "bg" : "gearlookup_bkgd.jpg"
+        },
+        "m_itmLook" : {
+            "bg" : "magic_itemlookup_bkgd.jpg"
+        }
+    },
+    "sounds" : {
+        "launch" : ""
+    },
+    "scroll_generator" : {
+        "scroll_max" : 50
+    },
+    "crafting_rules" : {
+        "editMode" : false
+    },
+    "monster_lookup" : {
+        "images" : true,
+        "custom_dropdowns" : false,
+        "size_dropdown" : ["Little Guy", "Diminutive", "Tiny", "Small", "Medium", "Large", "Huge", "Gargantuan", "Titanic", "Really Big"],
+        "size_default" : "Medium",
+        "type_dropdown" : ["Aberration", "Beast", "Celestial", "Crab", "Construct", "Dragon", "Elemental", "Fey", "Fiend", "Giant", "Goblinoid", "Humanoid", "Monstrosity", "Ooze", "Plant", "Undead"],
+        "type_default" : "Humanoid"
+    },
+    "dice_roller" : {
+        "dice_max" : 8
+    },
+    "metadata" : {
+        "sources_txt" : ["System Reference Document", "Player's Handbook"],
+        "sources_dict" : {
+            "srd" : "System Reference Document",
+            "ph": "Player's Handbook",
+            "mm": "Monster Manual",
+            "dmg": "Dungeon Master's Guide"
+        },
+        "publisher_dict" : {
+            "Wizards Of The Coast" : ["ph", "mm", "srd", "dmg"]
+        }
+    }
+}
