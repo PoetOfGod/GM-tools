@@ -1,0 +1,523 @@
+{
+    "acid" : {
+        "name" : "Acid (vial)",
+        "source" : ["Player's Handbook", 148],
+        "type" : "gear",
+        "typeString" : "Adventuring Gear",
+        "cost" : "25 gp",
+        "weight" : "1 lb.",
+        "description" : "As an action, you can splash the contents of this vial onto a creature within 5 feet of you or throw the vial up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the acid as an improvised weapon. On a hit, the target takes 2d6 acid damage."
+    },
+    "alchemist's fire" : {
+        "name" : "Alchemist's fire (flask)",
+        "source" : ["Player's Handbook", 148],
+        "type" : "gear",
+        "typeString" : "Adventuring Gear",
+        "cost" : "50 gp",
+        "weight" : "1 lb.",
+        "description" : "This sticky, adhesive fluid ignites when exposed to air. As an action, you can throw this flask up to 20 feet, shattering it on impact. Make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. On a hit, the target takes 1d4 fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames."
+    },
+    "arrows" : {
+        "name" : "Arrows (20)",
+        "source" : ["Player's Handbook", 150],
+        "type" : "weapon",
+        "typeString" : "Weapon (ammunition)",
+        "cost" : "1 gp",
+        "weight" : "1 lb."
+    },
+    "blowgun needles" : {
+        "name" : "Blowgun needles (50)",
+        "source" : ["Player's Handbook", 150],
+        "type" : "weapon",
+        "typeString" : "Weapon (ammunition)",
+        "cost" : "1 gp",
+        "weight" : "1 lb."
+    },
+    "crossbow bolts" : {
+        "name" : "Crossbow bolts (20)",
+        "source" : ["Player's Handbook", 150],
+        "type" : "weapon",
+        "typeString" : "Weapon (ammunition)",
+        "cost" : "1 gp",
+        "weight" : "1.5 lb."
+    },
+    "sling bullets" : {
+        "name" : "Sling bullets (20)",
+        "source" : ["Player's Handbook", 150],
+        "type" : "weapon",
+        "typeString" : "Weapon (ammunition)",
+        "cost" : "4 cp",
+        "weight" : "1.5 lb."
+    },
+    "club" : {
+        "name" : "Club",
+        "source" : ["Player's Handbook", 149],
+        "type" : "weapon",
+        "typeString" : "Simple Melee Weapon",
+        "cost" : "1 sp",
+        "weight" : "2 lb.",
+        "damage" : "1d4 bludgeoning damage",
+        "properties" : [
+            "Light"
+        ]
+    },
+    "dagger" : {
+        "name" : "Dagger",
+        "source" : ["Player's Handbook", 149],
+        "type" : "weapon",
+        "typeString" : "Simple Melee Weapon",
+        "cost" : "2 gp",
+        "weight" : "1 lb.",
+        "damage" : "1d4 piercing damage",
+        "properties" : [
+            "Finesse",
+            "light",
+            "thrown (range 20/60)"
+        ]
+    },
+    "greatclub" : {
+        "name" : "Greatclub",
+        "source" : ["Player's Handbook", 149],
+        "type" : "weapon",
+        "typeString" : "Simple Melee Weapon",
+        "cost" : "2 sp",
+        "weight" : "10 lb.",
+        "damage" : "1d8 blugdeoning damage",
+        "properties" : [
+            "Two-handed"
+        ]
+    },
+    "handaxe" : {
+        "name" : "Handaxe",
+        "source" : ["Player's Handbook", 149],
+        "type" : "weapon",
+        "typeString" : "Simple Melee Weapon",
+        "cost" : "5 gp",
+        "weight" : "2 lb.",
+        "damage" : "1d6 slashing damage",
+        "properties" : [
+            "Light",
+            "thrown (range 20/60)"
+        ]
+    },
+    "javelin" : {
+        "name" : "Javelin",
+        "source" : ["Player's Handbook", 149],
+        "type" : "weapon",
+        "typeString" : "Simple Melee Weapon",
+        "cost" : "5 sp",
+        "weight" : "2 lb.",
+        "damage" : "1d6 piercing damage",
+        "properties" : [
+            "Thrown (range 30/120)"
+        ]
+    },
+    "light hammer" : {
+        "name" : "Light Hammer",
+        "source" : ["Player's Handbook", 149],
+        "type" : "weapon",
+        "typeString" : "Simple Melee Weapon",
+        "cost" : "2 gp",
+        "weight" : "2 lb.",
+        "damage" : "1d4 bludgeoning damage",
+        "properties" : [
+            "Light",
+            "thrown (range 20/60)"
+        ]
+    },
+    "mace" : {
+        "name" : "Mace",
+        "source" : ["Player's Handbook", 149],
+        "type" : "weapon",
+        "typeString" : "Simple Melee Weapon",
+        "cost" : "5 gp",
+        "weight" : "4 lb.",
+        "damage" : "1d6 bludgeoning damage"
+    },
+    "quarterstaff" : {
+        "name" : "Quarterstaff",
+        "source" : ["Player's Handbook", 149],
+        "type" : "weapon",
+        "typeString" : "Simple Melee Weapon",
+        "cost" : "2 sp",
+        "weight" : "4 lb.",
+        "damage" : "1d6 bludgeoning damage",
+        "properties" : [
+            "Versatile (1d8)"
+        ]
+    },
+    "sickle" : {
+        "name" : "Sickle",
+        "source" : ["Player's Handbook", 149],
+        "type" : "weapon",
+        "typeString" : "Simple Melee Weapon",
+        "cost" : "1 gp",
+        "weight" : "2 lb.",
+        "damage" : "1d4 slashing damage",
+        "properties" : [
+            "Light"
+        ]
+    },
+    "spear" : {
+        "name" : "Spear",
+        "source" : ["Player's Handbook", 149],
+        "type" : "weapon",
+        "typeString" : "Simple Melee Weapon",
+        "cost" : "1 gp",
+        "weight" : "3 lb.",
+        "damage" : "1d6 piercing damage",
+        "properties" : [
+            "Thrown (range 20/60)",
+            "versatile (1d8)"
+        ]
+    },
+    "unarmed strike" : {
+        "name" : "Unarmed Strike",
+        "source" : ["Player's Handbook", 149],
+        "type" : "weapon",
+        "typeString" : "Simple Melee Weapon",
+        "damage" : "1 bludgeoning damage"
+    },
+    "light crossbow" : {
+        "name" : "Light Crossbow",
+        "source" : ["Player's Handbook", 149],
+        "type" : "weapon",
+        "typeString" : "Simple Ranged Weapon",
+        "cost" : "25 gp",
+        "weight" : "5 lb.",
+        "damage" : "1d8 piercing damage",
+        "properties" : [
+            "Ammunition (range 80/320)",
+            "loading",
+            "two-handed"
+        ]
+    },
+    "dart" : {
+        "name" : "Dart",
+        "source" : ["Player's Handbook", 149],
+        "type" : "weapon",
+        "typeString" : "Simple Ranged Weapon",
+        "cost" : "5 cp",
+        "weight" : "1/4 lb.",
+        "damage" : "1d4 piercing damage",
+        "properties" : [
+            "Finesse",
+            "thrown (range 20/60)"
+        ]
+    },
+    "shortbow" : {
+        "name" : "Shortbow",
+        "source" : ["Player's Handbook", 149],
+        "type" : "weapon",
+        "typeString" : "Simple Ranged Weapon",
+        "cost" : "25 gp",
+        "weight" : "2 lb.",
+        "damage" : "1d6 piercing damage",
+        "properties" : [
+            "Ammunition (range 80/320)",
+            "two-handed"
+        ]
+    },
+    "sling" : {
+        "name" : "Sling",
+        "source" : ["Player's Handbook", 149],
+        "type" : "weapon",
+        "typeString" : "Simple Ranged Weapon",
+        "cost" : "1 sp",
+        "damage" : "1d4 bludgeoning damage",
+        "properties" : [
+            "Ammunition (range 30/120)"
+        ]
+    },
+    "battleaxe" : {
+        "name" : "Battleaxe",
+        "source" : ["Player's Handbook", 149],
+        "type" : "weapon",
+        "typeString" : "Martial Melee Weapon",
+        "cost" : "10 gp",
+        "weight" : "4 lb.",
+        "damage" : "1d8 slashing damage",
+        "properties" : [
+            "Versatile (1d10)"
+        ]
+    },
+    "flail" : {
+        "name" : "Flail",
+        "source" : ["Player's Handbook", 149],
+        "type" : "weapon",
+        "typeString" : "Martial Melee Weapon",
+        "cost" : "10 gp",
+        "weight" : "2 lb.",
+        "damage" : "1d8 blugdeoning damage"
+    },
+    "glaive" : {
+        "name" : "Glaive",
+        "source" : ["Player's Handbook", 149],
+        "type" : "weapon",
+        "typeString" : "Martial Melee Weapon",
+        "cost" : "20 gp",
+        "weight" : "6 lb.",
+        "damage" : "1d10 slashing damage",
+        "properties" : [
+            "Heavy",
+            "reach",
+            "two-handed"
+        ]
+    },
+    "greataxe" : {
+        "name" : "Greataxe",
+        "source" : ["Player's Handbook", 149],
+        "type" : "weapon",
+        "typeString" : "Martial Melee Weapon",
+        "cost" : "30 gp",
+        "weight" : "7 lb.",
+        "damage" : "1d12 slashing damage",
+        "properties" : [
+            "Heavy",
+            "two-handed"
+        ]
+    },
+    "greatsword" : {
+        "name" : "Greatsword",
+        "source" : ["Player's Handbook", 149],
+        "type" : "weapon",
+        "typeString" : "Martial Melee Weapon",
+        "cost" : "50 gp",
+        "weight" : "6 lb.",
+        "damage" : "2d6 slashing damage",
+        "properties" : [
+            "Heavy",
+            "two-handed"
+        ]
+    },
+    "halberd" : {
+        "name" : "Halberd",
+        "source" : ["Player's Handbook", 149],
+        "type" : "weapon",
+        "typeString" : "Martial Melee Weapon",
+        "cost" : "20 gp",
+        "weight" : "6 lb.",
+        "damage" : "1d10 slashing damage",
+        "properties" : [
+            "Heavy",
+            "reach",
+            "two-handed"
+        ]
+    },
+    "lance" : {
+        "name" : "Lance",
+        "source" : ["Player's Handbook", 149],
+        "type" : "weapon",
+        "typeString" : "Martial Melee Weapon",
+        "cost" : "10 gp",
+        "weight" : "6 lb.",
+        "damage" : "1d12 piercing damage",
+        "properties" : [
+            "Reach",
+            "special"
+        ],
+        "description" : "You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted."
+    },
+    "longsword" : {
+        "name" : "Longsword",
+        "source" : ["Player's Handbook", 149],
+        "type" : "weapon",
+        "typeString" : "Martial Melee Weapon",
+        "cost" : "15 gp",
+        "weight" : "3 lb.",
+        "damage" : "1d8 slashing damage",
+        "properties" : [
+            "Versatile (1d10)"
+        ]
+    },
+    "maul" : {
+        "name" : "Maul",
+        "source" : ["Player's Handbook", 149],
+        "type" : "weapon",
+        "typeString" : "Martial Melee Weapon",
+        "cost" : "10 gp",
+        "weight" : "10 lb.",
+        "damage" : "2d6 bludgeoning damage",
+        "properties" : [
+            "Heavy",
+            "two-handed"
+        ]
+    },
+    "morningstar" : {
+        "name" : "Morningstar",
+        "source" : ["Player's Handbook", 149],
+        "type" : "weapon",
+        "typeString" : "Martial Melee Weapon",
+        "cost" : "15 gp",
+        "weight" : "4 lb.",
+        "damage" : "1d8 piercing damage"
+    },
+    "pike" : {
+        "name" : "Pike",
+        "source" : ["Player's Handbook", 149],
+        "type" : "weapon",
+        "typeString" : "Martial Melee Weapon",
+        "cost" : "5 gp",
+        "weight" : "18 lb.",
+        "damage" : "1d10 piercing damage",
+        "properties" : [
+            "Heavy",
+            "reach",
+            "two-handed"
+        ]
+    },
+    "rapier" : {
+        "name" : "Rapier",
+        "source" : ["Player's Handbook", 149],
+        "type" : "weapon",
+        "typeString" : "Martial Melee Weapon",
+        "cost" : "25 gp",
+        "weight" : "2 lb.",
+        "damage" : "1d8 piercing damage",
+        "properties" : [
+            "Finesse"
+        ]
+    },
+    "scimitar" : {
+        "name" : "Scimitar",
+        "source" : ["Player's Handbook", 149],
+        "type" : "weapon",
+        "typeString" : "Martial Melee Weapon",
+        "cost" : "25 gp",
+        "weight" : "3 lb.",
+        "damage" : "1d6 slashing damage",
+        "properties" : [
+            "Finesse",
+            "light"
+        ]
+    },
+    "shortsword" : {
+        "name" : "Shortsword",
+        "source" : ["Player's Handbook", 149],
+        "type" : "weapon",
+        "typeString" : "Martial Melee Weapon",
+        "cost" : "10 gp",
+        "weight" : "2 lb.",
+        "damage" : "1d6 piercing damage",
+        "properties" : [
+            "Finesse",
+            "light"
+        ]
+    },
+    "trident" : {
+        "name" : "Trident",
+        "source" : ["Player's Handbook", 149],
+        "type" : "weapon",
+        "typeString" : "Martial Melee Weapon",
+        "cost" : "5 gp",
+        "weight" : "4 lb.",
+        "damage" : "1d6 piercing damage",
+        "properties" : [
+            "Thrown (range 20/60)",
+            "versatile (1d8)"
+        ]
+    },
+    "war pick" : {
+        "name" : "War Pick",
+        "source" : ["Player's Handbook", 149],
+        "type" : "weapon",
+        "typeString" : "Martial Melee Weapon",
+        "cost" : "5 gp",
+        "weight" : "2 lb.",
+        "damage" : "1d8 piercing damage"
+    },
+    "warhammer" : {
+        "name" : "Warhammer",
+        "source" : ["Player's Handbook", 149],
+        "type" : "weapon",
+        "typeString" : "Martial Melee Weapon",
+        "cost" : "15 gp",
+        "weight" : "2 lb.",
+        "damage" : "1d8 blugdeoning damage",
+        "properties" : [
+            "Versatile (1d10)"
+        ]
+    },
+    "whip" : {
+        "name" : "Whip",
+        "source" : ["Player's Handbook", 149],
+        "type" : "weapon",
+        "typeString" : "Martial Melee Weapon",
+        "cost" : "2 gp",
+        "weight" : "3 lb.",
+        "damage" : "1d4 slashing damage",
+        "properties" : [
+            "Finesse",
+            "reach"
+        ]
+    },
+    "blowgun" : {
+        "name" : "Blowgun",
+        "source" : ["Player's Handbook", 149],
+        "type" : "weapon",
+        "typeString" : "Martial Ranged Weapon",
+        "cost" : "10 gp",
+        "weight" : "1 lb.",
+        "damage" : "1 piercing damage",
+        "properties" : [
+            "Ammunition (range 25/100)",
+            "loading"
+        ]
+    },
+    "hand crossbow" : {
+        "name" : "Hand Crossbow",
+        "source" : ["Player's Handbook", 149],
+        "type" : "weapon",
+        "typeString" : "Martial Ranged Weapon",
+        "cost" : "75 gp",
+        "weight" : "3 lb.",
+        "damage" : "1d6 piercing damage",
+        "properties" : [
+            "Ammunition (range 30/120)",
+            "light",
+            "loading"
+        ]
+    },
+    "heavy crossbow" : {
+        "name" : "Heavy Crossbow",
+        "source" : ["Player's Handbook", 149],
+        "type" : "weapon",
+        "typeString" : "Martial Ranged Weapon",
+        "cost" : "50 gp",
+        "weight" : "18 lb.",
+        "damage" : "1d10 piercing damage",
+        "properties" : [
+            "Ammunition (100/400)",
+            "heavy",
+            "loading",
+            "two-handed"
+        ]
+    },
+    "longbow" : {
+        "name" : "Longbow",
+        "source" : ["Player's Handbook", 149],
+        "type" : "weapon",
+        "typeString" : "Martial Ranged Weapon",
+        "cost" : "50 gp",
+        "weight" : "2 lb.",
+        "damage" : "1d8 piercing damage",
+        "properties" : [
+            "Ammunition (150/600)",
+            "heavy",
+            "two-handed"
+        ]
+    },
+    "net" : {
+        "name" : "Net",
+        "source" : ["Player's Handbook", 149],
+        "type" : "weapon",
+        "typeString" : "Martial Ranged Weapon",
+        "cost" : "1 gp",
+        "weight" : "3 lb.",
+        "properties" : [
+            "Special",
+            "thrown (range 5/15)"
+        ],
+        "description" : "A Large or smaller creature hit by a net is restrained until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net.\n   When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make."
+    }
+}
