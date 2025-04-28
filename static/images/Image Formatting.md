@@ -11,3 +11,5 @@ _Background for the Scroll Generator Filters:_ scrollfilter_bkgd.jpg
 _Copy Icon for the Scroll Generator Copy Button:_ Copy.ico
 
 _Background for the Spell Lookup:_ spelllookup_bkgd.jpg
+
+These file names can be changed in the config.  

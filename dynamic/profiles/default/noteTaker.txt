@@ -1,0 +1,3 @@
+This can be used if you don't like the new initiative tracker, or you want to track any sort of notes
+Contents will be saved when the program is saved, but not if you shut down the laptop 
+*Except for a new timed auto save that should trigger about every 15 minutes

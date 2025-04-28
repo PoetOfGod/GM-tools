@@ -1,0 +1,951 @@
+{
+    "Quick Access Tables" : {
+        "Labor Cost" : {
+            "name" : "Labor Cost",
+            "size" : [9, 1],
+            "items" : [
+                ["DC", "Skill Level", "Labor", "Risk"],
+                ["1", "Novice", "1 sp", "1"],
+                ["2", "Novice", "1 sp", "1"],
+                ["3", "Novice", "1 sp", "1"],
+                ["4", "Novice", "1 sp", "1"],
+                ["5", "Novice", "1 sp", "1"],
+                ["6", "Novice", "1 sp", "1"],
+                ["7", "Novice", "1 sp", "1"],
+                ["8", "Novice", "1 sp", "1"],
+                ["9", "Apprentice", "1 gp", "1"],
+                ["10", "Apprentice", "2 gp", "1"],
+                ["11", "Journeyman", "3 gp", "1.05"],
+                ["12", "Journeyman", "4 gp", "1.05"],
+                ["13", "Journeyman", "7 gp", "1.05"],
+                ["14", "Journeyman", "11 gp", "1.05"],
+                ["15", "Master", "18 gp", "1.05"],
+                ["16", "Master", "29 gp", "1.1"],
+                ["17", "Master", "47 gp", "1.1"],
+                ["18", "Master", "76 gp", "1.1"],
+                ["19", "Master", "123 gp", "1.1"],
+                ["20", "Grandmaster", "199 gp", "1.1"],
+                ["21", "Grandmaster", "322 gp", "1.2"],
+                ["22", "Grandmaster", "521 gp", "1.2"],
+                ["23", "Grandmaster", "843 gp", "1.2"],
+                ["24", "Grandmaster", "1,364 gp", "1.2"],
+                ["25", "Grandmaster", "2,207 gp", "1.2"],
+                ["26", "Grandmaster", "3,571 gp", "1.3"],
+                ["27", "Grandmaster", "7,778 gp", "1.3"],
+                ["28", "Grandmaster", "11,349 gp", "1.3"],
+                ["29", "Grandmaster", "19,127 gp", "1.3"],
+                ["30", "Mythical", "30,476 gp", "1.3"]
+            ],
+            "itemWidth" : [3, 11, 9, 4]
+        },
+        "Labor Time" : {
+            "name" : "Labor Time",
+            "size" : [9, 1],
+            "items" : [
+                ["Rarity", "DC", "Time", "Labor Cost"],
+                ["Common", "8-12", "2-8 hours", "0.1-16 gp"],
+                ["Uncommon", "12-15", "4-16 hours", "8-144 gp"],
+                ["Rare", "15-18", "8-24 hours", "72-912 gp"],
+                ["Very Rare", "17-20", "16-40 hours", "3,760-3,980 gp"],
+                ["Legendary", "20-25", "24-40 hours", "2,388-44,140 gp"]
+            ],
+            "itemWidth" : [9, 5, 10, 14]
+        }
+    },
+    "Options" : ["Summary", "Purchasing", "Collecting Materials", "Exotic Harvesting", "Exotic Remnants", "Looting and Gathering", "Alchemy", "Poisoncraft", "Blacksmithing", "Cooking", "Enchanting", "Scrollscribing", "Wand Whittling", "Leatherworking", "Tinkering", "Woodcarving", "Runecarving"],
+    "Summary" : {
+        "headers" : {
+            "quick summary header" : {
+                "header" : "Summary",
+                "size" : [8, 1],
+                "position" : [15, 70]
+            }
+        },
+        "text" : {
+            "quick summary text" : {
+                "text" : " \u2022 Decide you want to craft something\n \u2022 Work with your DM to confirm this is\n   something you could do\n \u2022 Gather the materials you want to use\n   to create the item\n \u2022 Begin crafting using the related tool\n   and ability score.\n\nCrafting Modifier = \n   your Related Tool proficiency bonus +\n   your Related Ability Score modifier.\n\nYou can make progress in 2 hour\nincrements. For each 2 hours spent,\nmake a crafting roll. On a failure, no\nprogress is made. If you fail three times\nin a row, the crafting fails and all\nmaterials are lost. On a success, 2 hours\nof progress are made. Once your\ncompleted progress on an item is equal\nto the crafting time, the item is complete.\n\nYou can \"take 10\" by doubling the\ncrafting time. Working with someone else\nwho has proficiency with the related tool\ngives you advantage on your check, or if\nyou \"take 10\" it takes the normal\namount of time.",
+                "size" : [31, 28],
+                "position" : [15, 100]
+            }
+        },
+        "tables" : {
+            "Recommended Labor Time & Item Price" : {
+                "items" : [
+                    ["Rarity", "DC", "Time", "Labor Cost", "Consumable Price", "Price"],
+                    ["Common", "8-12", "2-8 hours", "0.1-16 gp", "25-50 gp", "50-100 gp"],
+                    ["Uncommon", "12-15", "4-16 hours", "8-144 gp", "50-250 gp", "101-500 gp"],
+                    ["Rare", "15-18", "8-24 hours", "72-912 gp", "250-2,500 gp", "501-5,000 gp"],
+                    ["Very Rare", "17-20", "16-40 hours", "3,760-3,980 gp", "2,500-25,000 gp", "5,001-50,000 gp"],
+                    ["Legendary", "20-25", "24-40 hours", "2,388-44,140 gp", "25,000+ gp", "50,000+ gp"]
+                ],
+                "itemWidth" : [9, 5, 10, 14, 16, 14],
+                "position" : [280, 100]
+            },
+            "Quick Reference" : {
+                "items" : [
+                    ["Profession", "Related Tool", "Related Ability Score"],
+                    ["Alchemy", "Alchemist's Supplies", "Wisdom or Intelligence"],
+                    ["Blacksmithing", "Blacksmith's Tools", "Strength"],
+                    ["Cooking", "Cook's Utensils", "Wisdom"],
+                    ["Enchanting", "Arcana", "Intelligence"],
+                    ["Engineering", "Carpenter's Tools", "Intelligence"],
+                    ["Leatherworking", "Leatherworker's Tools", "Dexterity"],
+                    ["Poisoncraft", "Poisoner's Kit", "Wisdom or Intelligence"],
+                    ["Runecarving", "Varies", "Wisdom or Intelligence"],
+                    ["Scrollscribing", "Calligrapher's Supplies*", "Intelligence"],
+                    ["Tinkering", "Tinker's Tools", "Intelligence"],
+                    ["Wandwhittling", "Woodcarver's Tools*", "Dexterity"],
+                    ["Woodcarving", "Woodcarver's Tools", "Dexterity"]
+                ],
+                "text" : ["*Uses proficiency in this tool and Arcana", 1],
+                "itemWidth" : [12, 19, 19],
+                "position" : [280, 275]
+            }
+        }
+    },
+    "Purchasing" : {
+        "headers" : {
+            "table header" : {
+                "header" : "Purchasing Tables by Type",
+                "size" : [22, 1],
+                "position" : [280, 30]
+            },
+            "shop gen header" : {
+                "header" : "Shop Name Generator",
+                "size" : [18, 1],
+                "position" : [40, 525]
+            }
+        }, 
+        "text" : {
+            "main text" : {
+                "text" : "Rarely will everything you need to craft\nwhat you want fall into your hands\nwithout the assistance of the oldest and\nmost powerful tool of any craftsman:\nmoney.\nWhen you don't have what you need,\nfrequently you can buy it. For some\nprofessions, there will be a lot more\nmaterials that can be purchased, while\nothers will rely more on the other routes.\n\nIn general, the buying price of a material\nis its listed value, and its selling price is\nusually half of that to an interested\nproperty. Between negotiation, market\nfluctuation, and GM moods, you may\nget better or worse prices. Note that\nmany materials are simply junk to a\nparty that does not have a use for them,\nand will only sell to interested parties.\n\nPurchasing is designed to be tied into the\nsocial pillar of the game.",
+                "size" : [31, 23],
+                "position" : [15, 70]
+            }
+        },
+        "tables" : {
+            "Magical Materials" : {
+                "items" : [
+                    ["Material", "Price"],
+                    ["Glass Vial", "1 gp"],
+                    ["Glass Flask", "1 gp"],
+                    ["Crystal Vial", "10 gp"],
+                    ["Normal Ink", "5 gp"],
+                    ["Common Reagent", "15 gp"],
+                    ["Uncommon Reagent", "40 gp"],
+                    ["Rare Reagent", "200 gp"],
+                    ["Very Rare Reagent", "2,000 gp"],
+                    ["Legendary Reagent", "5,000 gp"],
+                    ["Common Essence", "45 gp"],
+                    ["Uncommon Essence", "150 gp"],
+                    ["Rare Essence", "700 gp"],
+                    ["Very Rare Essence", "7,000 gp"],
+                    ["Legendary Essence", "25,000 gp"],
+                    ["Common Magical Ink", "15 gp"],
+                    ["Uncommon Magical Ink", "40 gp"],
+                    ["Rare Magical Ink", "200 gp"],
+                    ["Very Rare Magical Ink", "2,000 gp"],
+                    ["Legendary Magical Ink", "5,000 gp"],
+                    ["Parchment", "1 sp"],
+                    ["Uncommon Parchment", "40 gp"],
+                    ["Rare Parchment", "200 gp"],
+                    ["Very Rare Parchment", "2,000 gp"],
+                    ["Legendary Parchment", "5,000 gp"]
+                ],
+                "itemWidth" : [19, 8],
+                "position" : [280, 70]
+            },
+            "Metals" : {
+                "items" : [
+                    ["Material", "Price"],
+                    ["Metal Scraps", "1 sp"],
+                    ["Silver Scraps", "1 sp"],
+                    ["Gold Scraps", "1 sp"],
+                    ["Iron Ingot", "1 gp"],
+                    ["Steel Chain (2 ft)", "1 gp"],
+                    ["Steel Ingot", "2 gp"],
+                    ["Mithril Ingot", "30 gp"],
+                    ["Adamant Ingot", "40 gp"],
+                    ["Adamantine Ingot", "60 gp"]
+                ],
+                "itemWidth" : [15, 6],
+                "position" : [520, 430]
+            },
+            "Leather & Hide" : {
+                "items" : [
+                    ["Material", "Price"],
+                    ["Hide Scraps", "1 sp"],
+                    ["Leather Scraps", "1 sp"],
+                    ["Boiled Leather", "3 gp"],
+                    ["Hide", "2 gp"],
+                    ["Rawhide Leather", "2 gp"],
+                    ["Scales", "1 gp"],
+                    ["Tanned Leather", "3 gp"],
+                    ["Medium Carapace", "4 gp"],
+                    ["Large Carapace", "30 gp"],
+                    ["Tough Hide", "500 gp"],
+                    ["Resistant Hide", "500 gp"],
+                    ["Tough Leather", "600 gp"],
+                    ["Resistant Leather", "600 gp"]
+                ],
+                "itemWidth" : [15, 6],
+                "position" : [520, 70]
+            },
+            "Cooking" : {
+                "items" : [
+                    ["Material", "Price"],
+                    ["Supplies", "1 gp"],
+                    ["Uncommon Supplies", "10 gp"],
+                    ["Rare Supplies", "100 gp"]
+                ],
+                "itemWidth" : [19, 8],
+                "position" : [280, 680]
+            },
+            "Wood" : {
+                "items" : [
+                    ["Material", "Price"],
+                    ["Firewood", "1 cp"],
+                    ["Wood Scraps", "2 cp"],
+                    ["Wooden Stock", "5 sp"],
+                    ["Short Haft", "1 sp"],
+                    ["Long Haft", "2 sp"],
+                    ["Quality Branch", "2 gp"],
+                    ["Common Branch", "1 sp"],
+                    ["Uncommon Branch", "25 gp"],
+                    ["Rare Branch", "80 gp"],
+                    ["Very Rare Branch", "800 gp"],
+                    ["Legendary Branch", "2,000 gp"]
+                ],
+                "itemWidth" : [16, 7],
+                "position" : [710, 70]
+            },
+            "Misc" : {
+                "items" : [
+                    ["Material", "Price"],
+                    ["Buckle", "2 sp"],
+                    ["Fletching", "5 cp"],
+                    ["Length of String", "5 cp"],
+                    ["Armor Padding", "5 gp"],
+                    ["Parts", "2 gp"],
+                    ["Fancy Parts", "10 gp"],
+                    ["Esoteric Parts", "100 gp"]
+                ],
+                "itemWidth" : [15, 6],
+                "position" : [520, 700]
+            },
+            "Tools" : {
+                "items" : [
+                    ["Item", "Cost"],
+                    ["Alchemist's supplies*", "50 gp"],
+                    ["Brewer's supplies", "20 gp"],
+                    ["Calligrapher's supplies*", "10 gp"],
+                    ["Carpenter's tools*", "8 gp"],
+                    ["Cartographer's tools", "15 gp"],
+                    ["Cobber's tools", "5 gp"],
+                    ["Cook's utensils*", "1 gp"],
+                    ["Glassblower's tools", "30 gp"],
+                    ["Herbalism kit", "5 gp"],
+                    ["Jeweler's tools", "25 gp"],
+                    ["Leatherworker's tools*", "5 gp"],
+                    ["Mason's tools", "10 gp"],
+                    ["Painter's supplies", "10 gp"],
+                    ["Poisoner's kit*", "50 gp"],
+                    ["Potter's tools", "10 gp"],
+                    ["Smith's tools*", "20 gp"],
+                    ["Tinker's tools*", "50 gp"],
+                    ["Weaver's tools", "1 gp"],
+                    ["Woodcarver's tools*", "1 gp"]
+                ],
+                "text" : [" *For a major crafting branch", 1],
+                "itemWidth" : [18, 5],
+                "position" : [710, 380]
+            }
+        },
+        "random button" : {
+            "shop name generator" : {
+                "text" : "Click Here",
+                "size" : [8, 1],
+                "position" : [95, 560],
+                "display data" : {
+                    "name" : "shop name generator",
+                    "position" : [135, 610],
+                    "times" : 10,
+                    "join" : " ",
+                    "patterns" : "shop names"
+                }
+            }
+        }
+    },
+    "Collecting Materials" : {
+        "headers" : {
+            "harvesting header" : {
+                "header" : "Harvesting",
+                "size" : [9, 1],
+                "position" : [15, 70]
+            },
+            "salvaging header" : {
+                "header" : "Salvaging",
+                "size" : [9, 1],
+                "position" : [280, 70]
+            }
+        },
+        "text" : {
+            "harvesting text" : {
+                "text" : "Beasts, Dragons, and Monstrosities can\nbe harvested using Wisdom (Survival)\nfor meat and hides. At a GM's\ndiscretion, a Plant type creature can be\nharvested for food using the same DC\nand amount, but providing common fresh\ningredients instead of meat.\n\nBasic Harvesting takes 10 minutes. At\nyour GM's discretion, it may take longer\nfor larger creatures.\n\nIf a monster is applicable for both Basic\nHarvesting and Exotic Harvesting, you\ncan perform both, but the second check\nhas disadvantage to successfully gather\nthe materials.",
+                "size" : [31, 17],
+                "position" : [15, 105]
+            },
+            "salvaging text" : {
+                "text" : "Reagents cannot be salvaged.\nA non-attuned permanent magical item\ngives one essence equal to its rarity when\nsalvaged, which takes 2 hours and leaves\nthe item non-magical.\n\nWith a forge and 2 hours a metal item\ncan be salvaged into all its components.\nComplex items can be salvaged based\non their size: Small or smaller gives 1d4\nmetal scraps and 1d4 parts; Medium\ngives 2d6 metal scraps; Large or larger\ngives 3d8 metal scraps or more.\n\nA wooden product can be salvaged into\nwood scraps equal to four times\nthe number of branches to create it.",
+                "size" : [31, 17],
+                "position" : [280, 105]
+            }
+        },
+        "tables" : {
+            "Synthesizing Essences" : {
+                "items" : [
+                    ["Essence", "Component Reagents"],
+                    ["Arcane", "1 Curative, 1 Poisonous, 1 Reactive"],
+                    ["Primal", "3 Reactive"],
+                    ["Divine", "2 Curative, 1 Reactive"]
+                ],
+                "text" : ["This process takes 4 hours, and requires\nalchemist's supplies and a heat source.", 2],
+                "itemWidth" : [9, 28],
+                "position" : [555, 70]
+            },
+            "Making Essences (Rarity)" :
+            {
+                "items" : [
+                    ["Caster Level", "Rarity"],
+                    ["1st-4th", "Common"],
+                    ["5th-10th", "Uncommon"],
+                    ["11th-16th", "Rare"],
+                    ["17th+", "Very Rare"]
+                ],
+                "text" : ["A spellcaster can create 1\nessence during 1 workweek; this process can't be done\nfaster, they are considered to have no spell slots during this.", 5],
+                "itemWidth" : [12, 10],
+                "position" : [740, 240]
+            },
+            "Making Essences (Type)" :
+            {
+                "items" : [
+                    ["Caster", "Essence Type"],
+                    ["Bard", "Arcane"],
+                    ["Cleric", "Divine"],
+                    ["Druid", "Primal"],
+                    ["Inventor", "Arcane"],
+                    ["Monk", "Psionic"],
+                    ["Paladin", "Divine"],
+                    ["Psion", "Psionic"],
+                    ["Ranger", "Primal"],
+                    ["Sorcerer", "Varies"],
+                    ["Warlock", "Varies"],
+                    ["Wizard", "Arcane"]
+                ],
+                "text" : ["Sorcerer subclass:\nDragon, Wild - Primal;\nDivine Soul - Divine;\nShadow - Arcane.\nWarlock subclass:\nArchfey - Primal;\nCelestial - Divine;\nOther - Arcane.", 8],
+                "itemWidth" : [9, 12],
+                "position" : [555, 240]
+            },
+            "Hide and Meat Harvesting" : {
+                "items" : [
+                    ["Creature Size", "DC", "Hide", "Meat"],
+                    ["Tiny", "n/a", "-", "-"],
+                    ["Small", "12", "1d4 hide scraps", "-"],
+                    ["Medium", "10", "1 hide or 1 medium carapace or 2d6 scales", "1 common meat"],
+                    ["Large", "12", "5 hides of 1 large carapace or 3d6 scales", "1d4 common meat"],
+                    ["Huge", "14", "10 hides or 2 large carapace or 6d6 scales", "2d6 common meat"],
+                    ["Gargantuan", "14", "15 hides or 3 large carapace or 9d6 scales", "3d8 common meat"]
+                ],
+                "text" : ["Special Materials can replace up to half of the materials harvested based on the\nqualifications of the monster.\nA failure gives 1d4 hide scraps, a carapace one size down, or 1/2 as many scales.", 3],
+                "itemWidth" : [12, 3, 34, 15],
+                "position" : [15, 445]
+            },
+            "Special Materials" : {
+                "items" : [
+                    ["Modifier", "Min CR", "+DC", "Additional Requirements", "Effect"],
+                    ["Tough Hide/Scales", "8", "+4", "Harvested from a creature with AC 16 or higher", "Armor crafted has +1 AC"],
+                    ["Resistant Hide/Scales", "8", "+5", "From a creature with elemental damage resistance", "Armor crafted has related resistance"],
+                    ["Dragon Scales", "14", "+8", "Harvested from a Dragon", "Armor crafted has +1 AC and Resistance to related element"],
+                    ["Uncommon Meat", "5", "+3", "-", "-"],
+                    ["Rare Meat", "10", "+5", "-", "-"],
+                    ["Very Rare Meat", "17", "+7", "-", "-"],
+                    ["Legendary Meat", "21", "+9", "-", "-"]
+                ],
+                "text" : ["If the difficulty modifier is not met, the material is harvested without the modifier, its special properties are ruined during harvesting.", 1],
+                "itemWidth" : [17, 7, 4, 38, 46],
+                "position" : [15, 705]
+            }
+        }
+    },
+    "Exotic Harvesting" : {
+        "headers" : {
+            "harvesting header" : {
+                "header" : "Applicable Targets: Aberration, Constructs, Dragons, Monstrosities, Plants, Some Undead",
+                "size" : [72, 1],
+                "position" : [15, 70]
+            }
+        },
+        "text" : {
+            "harvesting main text" : {
+                "text" : "A random roll is performed to judge what can be harvested from the monster. For Dragons, Giants, and Monstrosities, a Wisdom (Medicine) check\nis required to harvest the material without destroying it, for Aberrations and Constructs, an Intelligence (Arcana) check is required, and for Plants\nan Intelligence (Nature) check is required. Exotic Harvesting takes 10 minutes. At your GM's discretion, it may take longer for larger creatures.",
+                "size" : [112, 3],
+                "position" : [15, 100]
+            }
+        },
+        "tables" : {
+            "Exotic Harvesting (CR 0-4)" : {
+                "items" : [
+                    ["d100", "DC", "Dragon/Giant/Monstros.", "Construct", "Aberration", "Undead", "Plant"],
+                    ["01-20", "8", "-", "Parts", "-", "-", "-"],
+                    ["21-50", "8", "Com. Poisonous Reagent", "Fancy Parts", "Common Reactive Reagent", "-", "Common Poisonous Reagent"],
+                    ["51-70", "8", "Common Reactive Reagent", "Fancy Parts", "Common Curative Reagent", "-", "Common Curative Reagent"],
+                    ["71-80", "8", "Common Curative Reagent", "Fancy Parts", "Common Poisonous Reagent", "-", "Common Reactive Reagent"],
+                    ["81-00", "8", "Common Primal Reagent", "Common Arcane Essence", "Common Psionic Essence", "Common Arcane Essence", "Common Primal Essence"]
+                ],
+                "itemWidth" : [5, 3, 21, 20, 22, 20, 22],
+                "position" : [15, 175]
+            },
+            "Exotic Harvesting (CR 5-10)" : {
+                "items" : [
+                    ["d100", "DC", "Dragon/Giant/Monstros.", "Construct", "Aberration", "Undead", "Plant"],
+                    ["01-30", "10", "Unc. Reactive Reagent", "Fancy Parts", "Common Reactive Reagent", "Common Arcane Essence", "Common Poisonous Reagent"],
+                    ["31-60", "10", "Unc. Poisonous Reagent", "d4 Fancy Parts", "Unc. Reactive Reagent", "d4 Com. Poisonous Reagent", "Unc. Poisonous Reagent"],
+                    ["61-80", "10", "d4 Unc. Reactive Reagent", "d6 Fancy Parts", "Unc. Curative Reagent", "d4 Unc. Poisonous Reagent", "d4 Unc. Curative Reagent"],
+                    ["81-90", "10", "Unc. Primal Essence", "Unc. Arcane Essence", "Unc. Arcane Essense", "Unc. Divine Essence", "Unc. Primal Essence"],
+                    ["91-00", "10", "Unc. Primal Essence", "Unc. Arcane Essence", "Unc. Psionic Essense", "Unc. Arcane Essence", "Unc. Primal Essence"]
+                ],
+                "itemWidth" : [5, 3, 21, 18, 21, 23, 22],
+                "position" : [15, 350]
+            },
+            "Exotic Harvesting (CR 11-16)" : {
+                "items" : [
+                    ["d100", "DC", "Dragon/Giant/Monstros.", "Construct", "Aberration", "Undead", "Plant"],
+                    ["01-30", "12", "Unc. Reactive Reagent", "Esoteric Parts", "Unc. Reactive Reagent", "Unc. Poisonous Reagent", "Unc. Poisonous Reagent"],
+                    ["31-60", "12", "Unc. Primal Essence", "d4 Esoteric Parts", "Unc. Psionic Essence", "Unc. Arcane Essence", "Unc. Primal Essence"],
+                    ["61-70", "12", "Rare Reactive Reagent", "Unc. Arcane Essence", "Rare Reactive Reagent", "Rare Poisonous Reagent", "Rare Curative Reagent"],
+                    ["71-80", "12", "Rare Poisonus Reagent", "Unc. Arcane Essence", "Rare Poisonous Reagent", "Unc. Arcane Essence", "Rare Poisonsous Reagent"],
+                    ["81-90", "12", "Rare Primal Essence", "Rare Arcane Essence", "Rare Arcane Essence", "Rare Divine Essence", "Rare Primal Essence"],
+                    ["91-99", "12", "Rare Primal Essence", "Rare Arcane Essence", "Rare Psionic Essence", "Rare Arcane Essence", "Rare Primal Essence"],
+                    ["00", "12", "Very Rare Primal Essence", "Very Rare Arcane Essence", "Very Rare Psionic Essence", "Very Rare Arcane Essence", "Very Rare Primal Essence"]
+                ],
+                "itemWidth" : [5, 3, 21, 21, 21, 21, 21],
+                "position" : [15, 525]
+            },
+            "Exotic Harvesting (CR 17+)" : {
+                "items" : [
+                    ["d100", "DC", "Dragon/Giant/Monstros.", "Construct", "Aberration", "Undead", "Plant"],
+                    ["01-30", "15", "d4 Rare Reactive Reagent", "d4 Esoteric Parts", "d4 Rare Reactive Reagent", "d4 Rare Poisonous Reagent", "d4 Rare Poisonous Reagent"],
+                    ["31-50", "15", "Rare Primal Essence", "Rare Arcane Essence", "Rare Psionic Essence", "Rare Arcane Essence", "Rare Primal Essence"],
+                    ["51-89", "15", "Very Rare Primal Essence", "Very Rare Arcane Essence", "Very Rare Arcane Essence", "Very Rare Arcane Essence", "Very Rare Primal Essence"],
+                    ["90-94", "15", "Legendary Primal Essence", "Legendary Arcane Essence", "Legendary Arcane Essence", "Legendary Divine Essence", "Legendary Primal Essence"],
+                    ["95-00", "15", "Legendary Primal Essence", "Legendary Arcane Essence", "Legendary Psionic Essence", "Legendary Arcane Essence", "Legendary Primal Essence"]
+                ],
+                "itemWidth" : [5, 3, 21, 21, 21, 21, 21],
+                "position" : [15, 745]
+            }
+        }
+    },
+    "Exotic Remnants" : {
+        "headers" : {
+            "remnants header" : {
+                "header" : "Applicable Targets: Celestials, Elementals, Fiends, Incorporeal Undead",
+                "size" : [57, 1],
+                "position" : [15, 70]
+            }
+        },
+        "text" : {
+            "remnants main text" : {
+                "text" : "Some creatures typically do not leave behind corpses. While these most often disappear without a trace, sometimes they will leave behind a fragment\nof the magical forces that powered them as a remnant, in the form of a reagent or essence. These are less likely to result in a crafting item, but don't\nrequire any check to gather it successfully. Gathering remnants is simple to do, and requires only 1 minute.",
+                "size" : [112, 3],
+                "position" : [15, 100]
+            }
+        },
+        "tables" : {
+            "Exotic Remnants (CR 0-4)" : {
+                "items" : [
+                    ["d100", "Celestial", "Fiend", "Elemental", "Incorporeal Undead"],
+                    ["01-50", "-", "-", "-", "-"],
+                    ["51-70", "-", "-", "Common Reactive Reagent", "-"],
+                    ["71-80", "Common Curative Reagent", "Common Reactive Reagent", "Common Reactive Reagent", "Common Poisonous Reagent"],
+                    ["81-95", "Common Divine Essence", "Common Arcane Essence", "Common Primal Essence", "Common Divine Essence"],
+                    ["96-00", "Common Divine Essence", "Common Divine Essence", "Common Primal Essence", "Common Arcane Essence"]
+                ],
+                "itemWidth" : [5, 23, 23, 23, 23],
+                "position" : [15, 175]
+            },
+            "Exotic Remnants (CR 5-10)" : {
+                "items" : [
+                    ["d100", "Celestial", "Fiend", "Elemental", "Incorporeal Undead"],
+                    ["01-20", "-", "-", "-", "-"],
+                    ["21-50", "Common Curative Reagent", "Common Reactive Reagent", "Common Reactive Reagent", "Common Poisonous Reagent"],
+                    ["51-80", "Unc. Curative Reagent", "Unc. Reactive Reagent", "Unc. Reactive Reagent", "Unc. Poisonous Reagent"],
+                    ["81-90", "Common Divine Essence", "Common Arcane Essence", "Common Primal Essence", "Common Arcane Essence"],
+                    ["91-00", "Unc. Divine Essence", "Unc. Arcane Essence", "Unc. Primal Essence", "Unc. Arcane Essence"]
+                ],
+                "itemWidth" : [5, 23, 23, 23, 23],
+                "position" : [15, 350]
+            },
+            "Exotic Remnants (CR 11-16)" : {
+                "items" : [
+                    ["d100", "Celestial", "Fiend", "Elemental", "Incorporeal Undead"],
+                    ["01-20", "Unc. Curative Reagent", "Unc. Reactive Reagent", "Unc. Reactive Reagent", "Unc. Poisonous Reagent"],
+                    ["21-50", "Unc. Divine Essence", "Unc. Arcane Essence", "Unc. Primal Essence", "Unc. Arcane Essence"],
+                    ["51-80", "Rare Curative Reagent", "Rare Reactive Reagent", "Rare Reactive Reagent", "Rare Poisonous Reagent"],
+                    ["81-00", "Rare Divine Essence", "Rare Arcane Essence", "Rare Primal Essence", "Rare Arcane Essence"]
+                ],
+                "itemWidth" : [5, 23, 23, 23, 23],
+                "position" : [15, 525]
+            },
+            "Exotic Remnants (CR 17+)" : {
+                "items" : [
+                    ["d100", "Celestial", "Fiend", "Elemental", "Incorporeal Undead"],
+                    ["01-20", "Rare Curative Reagent", "Rare Reactive Reagent", "Rare Reactive Reagent", "Rare Poisonous Reagent"],
+                    ["21-50", "Rare Divine Essence", "Rare Arcane Essence", "Rare Primal Essence", "Rare Arcane Essence"],
+                    ["51-69", "Very Rare Curative Reagent", "Very Rare Reactive Reagent", "Very Rare Reactive Reagent", "Very Rare Poisonous Reagent"],
+                    ["70-89", "Very Rare Divine Essence", "Very Rare Arcane Essence", "Very Rare Primal Essence", "Very Rare Arcane Essence"],
+                    ["81-00", "Legendary Divine Essence", "Legendary Arcane Essence", "Legendary Primal Essence", "Legendary Arcane Essence"]
+                ],
+                "itemWidth" : [5, 23, 23, 23, 23],
+                "position" : [15, 680]
+            }
+        }
+    },
+    "Looting and Gathering" : {
+        "headers" : {},
+        "text" : {
+            "gathering text" : {
+                "text" : "Materials can simply be found growing in\nthe wild. When traveling at a slow pace\nthrough wilderness for 8 hours, you can\nmake a gathering check, but you have\ndisadvantage to harvest. If you dedicate\n8 hours to gathering, you can make two\nchecks, or harvest one non-essence item\nof your choice on the table, or 1d12 of\nany trivial item (DC 8).\nYou can Gather Reagents with a\nHerbalism kit (Wisdom) check, kit not\nrequired. You can Search for Materials\nwith a Survival (Strength, Dexterity, or\nWisdom) check. You can Hunt Game\nwith a Survival (Dexterity or Wisdom)\ncheck.",
+                "size" : [31, 16],
+                "position" : [15, 70]
+            }
+        },
+        "tables" : {}
+    },
+    "Alchemy" : {
+        "headers" : {},
+        "text" : {
+            "main text" : {
+                "text" : "Alchemy Overview:\n \u2022 Decide you want to brew a potion\n \u2022 Aquire the materials needed\n \u2022 Use your alchemist's supplies to brew it\n \u2022 For every 2 hours, make a crafting roll of 1d20 + your\n   Intelligence or Wisdom modifier (your choice) + your\n   proficiency bonus with alchemist's supplies\n \u2022 On a success, mark 2 hours of completed time until the\n   potion is done\n \u2022 On a failure, the crafting time is lost and no progress has\n   been made. If you fail 3 times in a row the crafting is a\n   failure and all materials are lost.\nThese crafting checks must be consecutive.\nCrafting without alchemist's supplies gives disadvantage.\nYou can use proficiency with a herbalism kit while crafting\npotions of healing, potions of poison, and antitoxins.",
+                "size" : [44, 16],
+                "position" : [15, 70]
+            }
+        },
+        "tables" : {
+            "Alchemy Materials" : {
+                "items" : [
+                    ["Material", "Price"],
+                    ["Glass Vial", "1 gp"],
+                    ["Glass Flask", "1 gp"],
+                    ["Crystal Vial", "10 gp"],
+                    ["Common Reagent", "15 gp"],
+                    ["Uncommon Reagent", "40 gp"],
+                    ["Rare Reagent", "200 gp"],
+                    ["Very Rare Reagent", "2,000 gp"],
+                    ["Legendary Reagent", "5,000 gp"],
+                    ["Common Essence", "45 gp"],
+                    ["Uncommon Essence", "150 gp"],
+                    ["Rare Essence", "700 gp"],
+                    ["Very Rare Essence", "7,000 gp"],
+                    ["Legendary Essence", "25,000 gp"]
+                ],
+                "itemWidth" : [16, 8],
+                "position" : [380, 70]
+            }
+        }
+    },
+    "Poisoncraft" : {
+        "headers" : {},
+        "text" : {
+            "main text" : {
+                "text" : "Poisoncraft Overview:\n \u2022 Decide you want to craft a poison\n \u2022 Aquire the materials needed\n \u2022 Use your poisoner's kit to craft it\n \u2022 For every 2 hours, make a crafting roll of 1d20 + your\n   Intelligence or Wisdom modifier (your choice) + your\n   proficiency bonus with a poisoner's kit\n \u2022 On a success, mark 2 hours of completed time until the\n   poison is done\n \u2022 On a failure, the crafting time is lost and no progress has\n   been made. If you fail 3 times in a row the crafting is a\n   failure and all materials are lost.\nThese crafting checks do not need to be consecutive.\nCrafting without a poisoner's kit gives disadvantage.",
+                "size" : [44, 14],
+                "position" : [15, 70]
+            }
+        },
+        "tables" : {
+            "Poisoncraft Materials" : {
+                "items" : [
+                    ["Material", "Price"],
+                    ["Glass Vial", "1 gp"],
+                    ["Glass Flask", "1 gp"],
+                    ["Crystal Vial", "10 gp"],
+                    ["Common Reagent", "15 gp"],
+                    ["Uncommon Reagent", "40 gp"],
+                    ["Rare Reagent", "200 gp"],
+                    ["Very Rare Reagent", "2,000 gp"],
+                    ["Legendary Reagent", "5,000 gp"]
+                ],
+                "itemWidth" : [16, 7],
+                "position" : [380, 70]
+            }
+        }
+    },
+    "Blacksmithing" : {
+        "headers" : {},
+        "text" : {
+            "main text" : {
+                "text" : "Blacksmithing Overview:\n \u2022 Decide you want to smith something\n \u2022 Aquire the materials needed\n \u2022 Use your blacksmith's tools to craft it\n \u2022 For every 2 hours, make a crafting roll of 1d20 + your\n   Strength modifier + your proficiency bonus with\n   blacksmith's tools\n \u2022 On a success, mark 2 hours of completed time until the\n   object is done\n \u2022 On a failure, the crafting time is lost and no progress has\n   been made. If you fail 3 times in a row the crafting is a\n   failure and all materials are lost.\nCrafting without smith's tools is impossible, but makeshift\ntools gives disadvantage.",
+                "size" : [44, 14],
+                "position" : [15, 70]
+            },
+            "minor options text" : {
+                "text" : "A blacksmith can do minor crafts over 2 hours by\nexpending 5 gp of materials.\n   They can maintain a number of weapons or sets of\narmor equal to their proficiency bonus, granting each\nweapon or armor a d6 Quality Die.\n   For a weapon this can be rolled and added to an attack\nor damage roll. For armor it can be rolled when hit with an\nattack, to reduce the damage by the amount rolled. Rolling\nthis die requires no action, but it is expended.\n   The blacksmith can modify armor or a weapon. They\ncan turn a set of plate into half plate or breastplate, or\nrefit a set of heavy or medium armor to fit a smaller user.\n   Modifying a weapon requires a DC 14 check, on a fail\nthe weapon is damaged and has a -1 penalty to its attack\nrolls until fixed. They can weight a weapon giving it the\nheavy and two-handed property. They can remove the\nheavy property, reducing its damage dice by d2. They can\nadd the light property to a non-heavy weapon, reducing\nits damage dice by d2. They can silver the weapon with\n5 silver scraps (10 scraps for two-handed weapons).\n   The blacksmith can additionally repair damaged\nweapons or armor.",
+                "size" : [44, 22],
+                "position" : [15, 340]
+            },
+            "modifiers text" : {
+                "text" : "Crafting a weapon or armor out of a non-standard\nmaterial gives a Material Modifier, which modifies the DC\nand bestows slight changes to the item. The smith can\nadditionally add any Crafting Modifiers they know,\nchanging the DC and further modifying the item.",
+                "size" : [44, 5],
+                "position" : [15, 775]
+            }
+        },
+        "tables" : {
+            "Smithing Materials" : {
+                "items" : [
+                    ["Material", "Price"],
+                    ["Metal Scraps", "1 sp"],
+                    ["Silver Scraps", "1 sp"],
+                    ["Gold Scraps", "1 sp"],
+                    ["Iron Ingot", "1 gp"],
+                    ["Steel Chain (2 ft)", "1 gp"],
+                    ["Steel Ingot", "2 gp"],
+                    ["Armor Padding", "5 gp"],
+                    ["Short Haft", "1 sp"],
+                    ["Long Haft", "2 sp"],
+                    ["Parts", "2 gp"],
+                    ["Mithril Ingot", "30 gp"],
+                    ["Adamant Ingot", "40 gp"],
+                    ["Adamantine Ingot", "60 gp"]
+                ],
+                "itemWidth" : [14, 6],
+                "position" : [380, 70]
+            },
+            "Smithing Examples" : {
+                "items" : [
+                    ["Name", "Materials", "Checks", "DC", "Value"],
+                    ["Dagger", "0.5 ingot", "1", "10", "3 gp"],
+                    ["Spear", "1 ingot, 1 long haft", "1", "9", "3 gp"],
+                    ["Battleaxe", "3 ingots, 1 short haft", "2", "12", "10 gp"],
+                    ["Greatsword", "10 ingots", "2", "15", "50 gp"],
+                    ["Longsword", "4 ingots", "2", "14", "15 gp"],
+                    ["Rapier", "1 ingot", "2", "15", "25 gp"],
+                    ["Chain Shirt", "5 ingots", "7", "13", "50 gp"],
+                    ["Breastplate", "10 ingots", "8", "16", "400 gp"],
+                    ["Half Plate", "16 ingots, 1 padding", "14", "17", "750 gp"],
+                    ["Plate", "30 ingots, 1 padding", "28", "17", "1500 gp"],
+                    ["Shield", "2 ingots", "3", "10", "10 gp"],
+                    ["20x Scraps", "1 ingot", "1", "5", "2 gp"],
+                    ["Ingot", "20 scraps", "1", "5", "2 gp"]
+                ],
+                "itemWidth" : [10, 17, 6, 3, 7],
+                "position" : [560, 70]
+            },
+            "Material Modifiers" : {
+                "items" : [
+                    ["Metal", "DC", "Weapon Effect", "Armor Effect"],
+                    ["Bronze", "-3", "-1 Weapon, Gains Fragile", "-1 AC, Gains Fragile"],
+                    ["Mithril", "+5", "Loses Heavy or gains Light", "No Stealth penalty or Strength requirement"],
+                    ["Ice Steel", "+6", "Extra 1d4 Cold damage", "Resistance to Fire"],
+                    ["Fire Steel", "+6", "Extra 1d4 Fire damage", "Resistance to Cold"]
+                ],
+                "text" : ["Fragile weapons break on an attack roll of 1 against non-Fragile armored targets\nFragile armor breaks against a critical strike from a non-Fragile weapon\nMithril: Reduces the enchanting DC by 4, counts as having 1 common essence", 3],
+                "itemWidth" : [10, 3, 22, 34],
+                "position" : [380, 425]
+            },
+            "Crafting Modifiers" : {
+                "items" : [
+                    ["Modifier", "DC", "Weapon Effect", "Armor Effect"],
+                    ["Dwarven", "+4", "Loses Light or Gains Heavy", "Reaction: forced move -10 ft; 150% weight"],
+                    ["Elven", "+5", "Gains Finesse", "Does not require proficiency"],
+                    ["Hardened", "+4", "Quality Die becomes d12", "Quality die becomes d12"],
+                    ["Masterwork", "+6", "+1 to attack, removes Fragile", "Damage Reduction 2; removes Fragile"]
+                ],
+                "text" : ["Masterwork: Failing a crafting roll for Masterwork doesn't cause a failure, but the resulting\n   weapon is only a Masterwork if all crafting rolls pass the Masterwork DC\nDamage Reduction reduces non-magical bludg., pierc., and slash. damage (min 1)", 3],
+                "itemWidth" : [10, 3, 23, 33],
+                "position" : [380, 635]
+            }
+        }
+    },
+    "Cooking" : {
+        "headers" : {},
+        "text" : {
+            "main text" : {
+                "text" : "Cooking Overview:\n \u2022 Decide you want to cook something\n \u2022 Aquire the materials needed\n \u2022 Use your cook's utensils to cook it\n \u2022 For every 2 hours, make a crafting roll of 1d20 + your\n   Wisdom modifier + your proficiency bonus with\n   cook's utensils\n \u2022 On a success, mark 2 hours of completed time until the\n   meal is done\n \u2022 On a failure, the crafting time is lost and no progress has\n   been made. If you fail 3 times in a row the crafting is a\n   failure and all materials are lost.\nThese crafting checks must be consecutive.\nCrafting without cook's utensils gives disadvantage.\nAll meals require a heat source to cook.",
+                "size" : [44, 14],
+                "position" : [15, 70]
+            }
+        },
+        "tables" : {
+            "Cooking Materials" : {
+                "items" : [
+                    ["Material", "Price"],
+                    ["Supplies", "1 gp"],
+                    ["Uncommon Supplies", "10 gp"],
+                    ["Rare Supplies", "100 gp"]
+                ],
+                "itemWidth" : [16, 6],
+                "position" : [380, 70]
+            }
+        }
+    },
+    "Enchanting" : {
+        "headers" : {},
+        "text" : {
+            "main text" : {
+                "text" : "Enchanting Overview:\n \u2022 Decide you want to enchant something\n \u2022 Aquire the materials needed\n \u2022 Use your arcana skill to craft it\n \u2022 For every 2 hours, make a crafting roll of 1d20 + your\n   Intelligence modifier + your Arcana* proficiency bonus\n*Psionic enchantments use your Psionic proficiency bonus\n \u2022 On a success, mark 2 hours of completed time until the\n   object is done\n \u2022 On a failure, the crafting time is lost and no progress has\n   been made. If you fail 3 times in a row the crafting is a\n   failure and all materials are lost.",
+                "size" : [44, 12],
+                "position" : [15, 70]
+            },
+            "replacing spell scrolls" : {
+                "text" : "Replacing Spell Scrolls:\nA crafter can replace a spell scroll in an enchantment with\nthe ability to cast that spell. They must cast that spell for\neach crafting check they make on that item. They take a\nlevel of exhaustion for each time this technique is used to\nreplace a crafting check. A single caster can only replace\none spell scroll for an item, but multiple casters can\nreplace multiple spell scrolls, incurring the same penalties\nupon themselves while assisting you.",
+                "size" : [44, 9],
+                "position" : [15, 710]
+            }
+        },
+        "tables" : {
+            "Enchanting Materials" : {
+                "items" : [
+                    ["Material", "Price"],
+                    ["Common Essence", "45 gp"],
+                    ["Uncommon Essence", "150 gp"],
+                    ["Rare Essence", "700 gp"],
+                    ["Very Rare Essence", "7,000 gp"],
+                    ["Legendary Essence", "25,000 gp"],
+                    ["Cantrip Scroll", "20 gp"],
+                    ["1st-Level Scroll", "65 gp"],
+                    ["2nd-Level Scroll", "90 gp"],
+                    ["3rd-Level Scroll", "250 gp"],
+                    ["4th-Level Scroll", "300 gp"],
+                    ["5th-Level Scroll", "1,200 gp"],
+                    ["6th-Level Scroll", "1,500 gp"],
+                    ["7th-Level Scroll", "12,000 gp"],
+                    ["8th-Level Scroll", "14,000 gp"],
+                    ["9th-Level Scroll", "40,000 gp"]
+                ],
+                "itemWidth" : [16, 9],
+                "position" : [15, 310]
+            },
+            "Enchanting Examples" : {
+                "items" : [
+                    ["Name", "Materials", "Checks", "DC", "Rarity", "Value"],
+                    ["Doodle Ring", "1 ring\n1 Illusory Script scroll\n1 common magical ink", "4", "12", "Common", "100 gp"],
+                    ["+1 Weapon", "1 weapon\n1 Magic Weapon scroll\n2 common arcane essence\n2 uncommon arcane essence", "4", "14", "Uncommon", "540 gp"],
+                    ["+2 Weapon", "1 weapon\n1 Magic Weapon scroll\n2 uncommon arcane essence\n2 rare arcane essence\n2 rare divine essence\n2 rare primal essence", "8", "16", "Rare", "5,300 gp"],
+                    ["+3 Weapon", "1 weapon (1,000 gp minimum)\n1 Magic Weapon scroll\n1 Prismatic Weapon scroll\n1 Vorpal Weapon scroll\n1 very rare arcane essence\n1 very rare divine essence\n1 very rare primal essence", "12", "18", "Very Rare", "26,000 gp"],
+                    ["+1 Armor", "1 set of armor\n1 Mage Armor scroll\n1 Shield scroll\n1 Shield of Faith scroll\n1 rare arcane essence\n1 rare divine essence\n1 rare primal essence", "12", "16", "Rare", "3,000 gp"],
+                    ["+2 Armor", "1 set of armor (2,000 gp minimum)\n1 Globe of Invulnerability scroll\n1 Stoneskin scroll\n1 Mage Armor scroll\n1 Shield scroll\n1 Shield of Faith scroll\n1 very rare arcane essence\n1 very rare divine essence\n1 very rare primal essence", "16", "20", "Very Rare", "17,000 gp"],
+                    ["+3 Armor", "1 set of armor (4,000 gp minimum)\n1 Invulnerability scroll\n1 legendary arcane essence\n1 very rare divine essence\n1 very rare primal essence", "24", "22", "Legendary", "100,000 gp"]
+                ],
+                "itemWidth" : [10, 27, 6, 3, 9, 9],
+                "position" : [380, 70]
+            }
+        }
+    },
+    "Scrollscribing" : {
+        "headers" : {},
+        "text" : {
+            "main text" : {
+                "text" : "Scrollscribing Overview:\n \u2022 Decide you want to make a scroll of a spell\n \u2022 Aquire the materials needed\n \u2022 Use your calligraphy tools to craft it\n \u2022 For every 2 hours, make a crafting roll of 1d20 + your\n   Intelligence modifier + your proficiency bonus with\n   calligraphy tools (if proficient with Arcana)\n \u2022 On a success, mark 2 hours of completed time until the\n   scroll is done\n \u2022 On a failure, the crafting time is lost and no progress has\n   been made. If you fail 3 times in a row the crafting is a\n   failure and all materials are lost.\nOptionally, clerics can use Wisdom in place of\nIntelligence, relying on Religion instead of Arcana.\nScrolls created in this way are called scriptures, and may\nonly be able to be used by others of the same faith.\nCrafting without calligraphy tools is impossible.",
+                "size" : [44, 17],
+                "position" : [15, 70]
+            }
+        },
+        "tables" : {
+            "Scrollscribing Materials" : {
+                "items" : [
+                    ["Material", "Price"],
+                    ["Common Magical Ink", "15 gp"],
+                    ["Uncommon Magical Ink", "40 gp"],
+                    ["Rare Magical Ink", "200 gp"],
+                    ["Very Rare Magical Ink", "2,000 gp"],
+                    ["Legendary Magical Ink", "5,000 gp"],
+                    ["Common Parchment", "1 sp"],
+                    ["Uncommon Parchment", "40 gp"],
+                    ["Rare Parchment", "200 gp"],
+                    ["Very Rare Parchment", "2,000 gp"],
+                    ["Legendary Parchment", "5,000 gp"],
+                    ["Common Essence", "45 gp"],
+                    ["Uncommon Essence", "150 gp"],
+                    ["Rare Essence", "700 gp"],
+                    ["Very Rare Essence", "7,000 gp"],
+                    ["Legendary Essence", "25,000 gp"]
+                ],
+                "itemWidth" : [19, 9],
+                "position" : [380, 70]
+            }
+        }
+    },
+    "Wand Whittling" : {
+        "headers" : {},
+        "text" : {
+            "main text" : {
+                "text" : "Wand Whittling Overview:\n \u2022 Decide you want to make a lesser or greater wand\n \u2022 A lesser wand is based on a single spell, a greater spell\n   is a collection of spells or abilities\n \u2022 Aquire the materials needed\n \u2022 Use your woodcarver's tools to craft it\n \u2022 For every 2 hours, make a crafting roll of 1d20 + your\n   Dexterity modifier + your proficiency bonus with\n   woodcarver's tools (if proficient with Arcana)\n \u2022 On a success, mark 2 hours of completed time until the\n   wand is done\n \u2022 On a failure, the crafting time is lost and no progress has\n   been made. If you fail 3 times in a row the crafting is a\n   failure and all materials are lost.\nCrafting without woodcarver's tools is impossible.",
+                "size" : [44, 15],
+                "position" : [15, 70]
+            }
+        },
+        "tables" : {
+            "Wand Whittling Materials" : {
+                "items" : [
+                    ["Material", "Price"],
+                    ["Common Branch", "1 sp"],
+                    ["Uncommon Branch", "25 gp"],
+                    ["Rare Branch", "80 gp"],
+                    ["Very Rare Branch", "800 gp"],
+                    ["Legendary Branch", "2,000 gp"],
+                    ["Common Essence", "45 gp"],
+                    ["Uncommon Essence", "150 gp"],
+                    ["Rare Essence", "700 gp"],
+                    ["Very Rare Essence", "7,000 gp"],
+                    ["Legendary Essence", "25,000 gp"],
+                    ["Cantrip Scroll", "20 gp"],
+                    ["1st-Level Scroll", "65 gp"],
+                    ["2nd-Level Scroll", "90 gp"],
+                    ["3rd-Level Scroll", "250 gp"],
+                    ["4th-Level Scroll", "300 gp"],
+                    ["5th-Level Scroll", "1,200 gp"],
+                    ["6th-Level Scroll", "1,500 gp"],
+                    ["7th-Level Scroll", "12,000 gp"],
+                    ["8th-Level Scroll", "14,000 gp"],
+                    ["9th-Level Scroll", "40,000 gp"]
+                ],
+                "itemWidth" : [16, 8],
+                "position" : [380, 70]
+            }
+        }
+    },
+    "Leatherworking" : {
+        "headers" : {},
+        "text" : {
+            "main text" : {
+                "text" : "Leatherworking Overview:\n \u2022 Decide you want to leatherwork something\n \u2022 Aquire the materials needed\n \u2022 Use your leatherworker's tools to craft it\n \u2022 For every 2 hours, make a crafting roll of 1d20 + your\n   Dexterity modifier + your proficiency bonus with\n   leatherworker's tools\n \u2022 On a success, mark 2 hours of completed time until the\n   object is done\n \u2022 On a failure, the crafting time is lost and no progress has\n   been made. If you fail 3 times in a row the crafting is a\n   failure and all materials are lost.\nCrafting without leatherworker's tools gives disadvantage.",
+                "size" : [44, 13],
+                "position" : [15, 70]
+            }
+        },
+        "tables" : {
+            "Leatherworking Materials" : {
+                "items" : [
+                    ["Material", "Price"],
+                    ["Hide Scraps", "1 sp"],
+                    ["Leather Scraps", "1 sp"],
+                    ["Boiled Leather", "3 gp"],
+                    ["Hide", "2 gp"],
+                    ["Rawhide Leather", "2 gp"],
+                    ["Scales", "1 gp"],
+                    ["Buckle", "2 sp"],
+                    ["Armor Padding", "5 gp"],
+                    ["Tanned Leather", "3 gp"],
+                    ["Medium Carapace", "4 gp"],
+                    ["Large Carapace", "30 gp"],
+                    ["Tough Hide", "500 gp"],
+                    ["Resistant Hide", "500 gp"],
+                    ["Tough Leather", "600 gp"],
+                    ["Resistant Leather", "600 gp"]
+                ],
+                "itemWidth" : [15, 6],
+                "position" : [380, 70]
+            }
+        }
+    },
+    "Tinkering" : {
+        "headers" : {},
+        "text" : {
+            "main text" : {
+                "text" : "Tinkering Overview:\n \u2022 Decide you want to tinker something\n \u2022 Aquire the materials needed\n \u2022 Use your tinker's tools to craft it\n \u2022 For every 2 hours, make a crafting roll of 1d20 + your\n   Intelligence modifier + your proficiency bonus with\n   tinker's tools\n \u2022 On a success, mark 2 hours of completed time until the\n   object is done\n \u2022 On a failure, the crafting time is lost and no progress has\n   been made. If you fail 3 times in a row the crafting is a\n   failure and all materials are lost.\nCrafting without tinker's tools gives disadvantage.\nHeat from a fire or forge may be necessary.",
+                "size" : [44, 14],
+                "position" : [15, 70]
+            }
+        },
+        "tables" : {
+            "Tinkering Materials" : {
+                "items" : [
+                    ["Material", "Price"],
+                    ["Parts", "2 gp"],
+                    ["Fancy Parts", "10 gp"],
+                    ["Esoteric Parts", "100 gp"],
+                    ["Metal Scraps", "1 sp"],
+                    ["Steel Chain (2 ft)", "1 gp"],
+                    ["Wood Scraps", "2 cp"],
+                    ["Wooden Stock", "5 sp"]
+                ],
+                "itemWidth" : [14, 6],
+                "position" : [380, 70]
+            }
+        }
+    },
+    "Woodcarving" : {
+        "headers" : {},
+        "text" : {
+            "main text" : {
+                "text" : "Woodcarving Overview:\n \u2022 Decide you want to woodcarve something\n \u2022 Aquire the materials needed\n \u2022 Use your woodcarver's tools to craft it\n \u2022 For every 2 hours, make a crafting roll of 1d20 + your\n   Dexterity modifier + your proficiency bonus with\n   woodcarver's tools\n \u2022 On a success, mark 2 hours of completed time until the\n   object is done\n \u2022 On a failure, the crafting time is lost and no progress has\n   been made. If you fail 3 times in a row the crafting is a\n   failure and all materials are lost.\nCrafting without woodcarver's tools gives disadvantage.",
+                "size" : [44, 13],
+                "position" : [15, 70]
+            }
+        },
+        "tables" : {
+            "Woodcarving Materials" : {
+                "items" : [
+                    ["Material", "Price"],
+                    ["Firewood", "1 cp"],
+                    ["Wood Scraps", "2 cp"],
+                    ["Quality Branch", "2 gp"],
+                    ["Common Branch", "1 sp"],
+                    ["Fletching", "5 cp"],
+                    ["Length of String", "5 cp"]
+                ],
+                "itemWidth" : [14, 5],
+                "position" : [380, 70]
+            }
+        }
+    },
+    "Runecarving" : {
+        "headers" : {},
+        "text" : {
+            "main text" : {
+                "text" : "Runecarving Overview:\n \u2022 Decide you want to carve a rune onto something\n \u2022 Gather materials for the rune carving\n \u2022 Use your related tools to craft it\n \u2022 For every 2 hours, make a crafting roll of 1d20 + your\n   Wisdom or Intelligence modifier + your proficiency\n   bonus with the related tools\n \u2022 On a success, mark 2 hours of completed time until the\n   rune is carved\n \u2022 On a failure, the crafting time is lost and no progress has\n   been made. If you fail 3 times in a row the crafting is a\n   failure and all materials are lost.\nCrafting without the related tool is impossible.",
+                "size" : [44, 13],
+                "position" : [15, 70]
+            },
+            "runic traditions" : {
+                "text" : "Rune carving comes in two traditions, each requiring\ndifferent tools and abilities.\n\nAncient Tradition:\nThe runes of Giants, Dwarves, and other cultures. Use\nWisdom to carve Ancient Runes, and select your tool\nfrom Mason's Tools or Painter's Supplies.\n\nAcademic Tradition:\nThe runes of Elves, mages, and scholars. Use Intelligence\nto carve Academic Runes, and select your tool from\nCalligrapher's Supplies or Woodcarver's Tools.",
+                "size" : [44, 12],
+                "position" : [15, 330]
+            }
+        },
+        "tables" : {
+            "Runecarving Materials" : {
+                "items" : [
+                    ["Material", "Price"],
+                    ["Common Reagent", "15 gp"],
+                    ["Uncommon Reagent", "40 gp"],
+                    ["Rare Reagent", "200 gp"],
+                    ["Very Rare Reagent", "2,000 gp"],
+                    ["Legendary Reagent", "5,000 gp"],
+                    ["Common Essence", "45 gp"],
+                    ["Uncommon Essence", "150 gp"],
+                    ["Rare Essence", "700 gp"],
+                    ["Very Rare Essence", "7,000 gp"],
+                    ["Legendary Essence", "25,000 gp"],
+                    ["Common Magical Ink", "15 gp"],
+                    ["Uncommon Magical Ink", "40 gp"],
+                    ["Rare Magical Ink", "200 gp"],
+                    ["Very Rare Magical Ink", "2,000 gp"],
+                    ["Legendary Magical Ink", "5,000 gp"],
+                    ["Cantrip Scroll", "20 gp"],
+                    ["1st-Level Scroll", "65 gp"],
+                    ["2nd-Level Scroll", "90 gp"],
+                    ["3rd-Level Scroll", "250 gp"],
+                    ["4th-Level Scroll", "300 gp"],
+                    ["5th-Level Scroll", "1,200 gp"],
+                    ["6th-Level Scroll", "1,500 gp"],
+                    ["7th-Level Scroll", "12,000 gp"],
+                    ["8th-Level Scroll", "14,000 gp"],
+                    ["9th-Level Scroll", "40,000 gp"]
+                ],
+                "itemWidth" : [19, 8],
+                "position" : [380, 70]
+            }
+        }
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "initiative": [
+        [
+            25,
+            "Solar",
+            255,
+            255,
+            0,
+            21,
+            "",
+            true
+        ],
+        [
+            18,
+            "Rexal",
+            12,
+            32,
+            0,
+            13,
+            "Is a bitch",
+            false
+        ],
+        [
+            15,
+            "Cradle of the Frost Scion",
+            532,
+            532,
+            0,
+            20,
+            "",
+            true
+        ],
+        [
+            14,
+            "Phase Spider",
+            34,
+            34,
+            0,
+            13,
+            "",
+            false
+        ],
+        [
+            13,
+            "Froghemoth",
+            161,
+            161,
+            0,
+            14,
+            "",
+            true
+        ],
+        [
+            12,
+            "Scion of Thrym",
+            0,
+            499,
+            0,
+            19,
+            "DEAD",
+            true
+        ],
+        [
+            9,
+            "Solar",
+            246,
+            246,
+            0,
+            21,
+            "",
+            true
+        ]
+    ]
+}
