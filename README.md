@@ -1,31 +1,33 @@
-# GM-tools version Alpha2.0b
-This application is a work in progress multi-functional tool that can assist Game Masters.
+# GM-tools version Alpha3.4b
+This application is a Work In Progress multi-functional tool that can assist Game Masters.
 
-What started as a simple scroll generator script with a custom GUI has expanded into a full program to assist with running Tabletop Roleplaying Games.  The code is designed to handle content for 5e, however it may be adapted into a more general form to include other popular roleplaying games as newer versions are released.
+What started as a simple scroll generator script with a custom GUI has expanded into a full program to assist with running Tabletop Roleplaying Games.  The code is designed to handle content for the 5th edition of the world's most popular roleplaying game, however it may be adapted into a more general form to include other popular roleplaying games as newer versions are released.
 
-Currently Development is mostly being done on the Crafting Rules Application and many of the Databases that will be used by upcoming applications.
+Currently Development is mostly being done on the Databases that will be used by the existing modules.
 
 **Current Working Status of Each Application, Estimated Time to Develop/Refine:**
 
- - Scroll Generator - Refinement Stage, Medium Application
- - Spell Lookup - Refinement Stage, Medium Application
- - Initiative - Prototyped, Light Application
-   
- - Crafting Rules - Prototyped, In Development, Light Application
- - Dice Roller - Not Started, Light Application
- - Equipment Lookup - Not Started, Medium Database Required, Medium Application
- - Monster Lookup - Not Started, Heavy Database Required, Heavy Application
- - Loot Generator - Not Started, Light Application
- - Name Generator - Not Started, Light Database Required, Mid Application
- - Encounter Builder - Not Started, Mid Application
+ - Scroll Generator - Refinement Stage, Medium Module
+ - Spell Lookup - Refinement Stage, Medium Module
+ - Initiative - Refinement Stage, Light Module
+ - Monster Lookup - Refinement Stage, Heavy Module
+ - Crafting Rules - Refinement Stage, Light Module
+  
+ - Dice Roller - Prototyped, Light Module
+ - Equipment Lookup - Prototyped, Medium Module
+ - Magic Item Lookup - Prototyped, Medium Module
+
+ - Loot Generator - Not Started, Light Module
+ - Name Generator - Not Started, Name Database Required, Medium Module
+ - Encounter Builder - Not Started, Medium Module
 
  **Databases Required:**
  
  - Spells - Done
- - Monsters - In Preprocessing                               
- - Equipment + Magic Items - In Preprocessing                
- - Classes/Subclasses - In Preprocessing                     
- - Feats/Backgrounds/Races - In Preprocessing                             
+ - Monsters - Done                             
+ - Equipment + Magic Items - In Progress              
+ - Classes/Subclasses - In Progress                 
+ - Feats/Backgrounds/Races - In Progress                            
  - Names - Not started
  - Extensive Meta Database/Meta Tags 
   
